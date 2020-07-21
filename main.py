@@ -9,3 +9,4 @@ for p in range(number_passwords):
     for c in range(password_length):
         password += random.choice(chars)
     print(password)
+input("Press ENTER to exit")
